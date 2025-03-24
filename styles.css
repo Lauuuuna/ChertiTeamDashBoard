@@ -17,7 +17,7 @@ body {
     text-align: center;
 }
 
-input, button {
+input, textarea, button {
     margin: 10px;
     padding: 10px;
     border: 1px solid #333;
@@ -27,9 +27,14 @@ input, button {
     width: 80%;
 }
 
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
 button {
     background-color: #ff4444;
-    color: #121212;
+    color: #ffffff;
     cursor: pointer;
 }
 
